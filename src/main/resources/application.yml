@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/mySQLDB?useSSL=true&requireSSL=true
+    url: jdbc:mysql://localhost:3306/datasource
     username: root
     password: 12345
     hikari:
