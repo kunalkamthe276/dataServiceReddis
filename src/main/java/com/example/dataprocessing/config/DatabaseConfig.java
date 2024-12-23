@@ -13,7 +13,7 @@ public class DatabaseConfig {
     @ConfigurationProperties("spring.datasource")
     public HikariDataSource dataSource() {
         HikariConfig config = new HikariConfig();
-        config.setJdbcUrl("jdbc:mysql://localhost:3306/MySQLDB?useSSL=true&requireSSL=true");
+        config.setJdbcUrl("jdbc:mysql://localhost:3306/datasource?useSSL=true&requireSSL=true");
         config.setUsername("root");
         config.setPassword("12345");
         config.setMaximumPoolSize(10);
